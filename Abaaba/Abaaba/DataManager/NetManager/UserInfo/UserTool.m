@@ -19,4 +19,8 @@
     [requset start];
 }
 
++ (void)getToken:(NSDictionary *)params finished:(void(^)(ABABaseResponse *result, NSError *error))finished{
+    [[ABaseRequest requestWithPath:KTokenUrl urlParams:nil bodyParams:params finished:finished] start];
+}
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		608048E1213FB76100C0FCF3 /* RongCloudIMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 608048E0213FB76100C0FCF3 /* RongCloudIMConfig.m */; };
 		912EDB52020BC0EB1CF7E647 /* libPods-Abaaba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC7618BE7050D9D3C08BF5E /* libPods-Abaaba.a */; };
 		CD2DB12D2115B9D200FECC6E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2DB1222115A82F00FECC6E /* Login.storyboard */; };
 		CD2FF2EF2120648C0095B5A2 /* LoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF2EE2120648C0095B5A2 /* LoginTool.m */; };
@@ -78,6 +79,8 @@
 
 /* Begin PBXFileReference section */
 		15DEAC5FCE4852DAE3BF62E9 /* Pods-Abaaba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abaaba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abaaba/Pods-Abaaba.release.xcconfig"; sourceTree = "<group>"; };
+		608048DF213FB76100C0FCF3 /* RongCloudIMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RongCloudIMConfig.h; sourceTree = "<group>"; };
+		608048E0213FB76100C0FCF3 /* RongCloudIMConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudIMConfig.m; sourceTree = "<group>"; };
 		8EC7618BE7050D9D3C08BF5E /* libPods-Abaaba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Abaaba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2DB1222115A82F00FECC6E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		CD2FF2ED2120648C0095B5A2 /* LoginTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTool.h; sourceTree = "<group>"; };
@@ -283,6 +286,8 @@
 				CD5BC4F72115A1B80016BABC /* main.m */,
 				CD5BC4E82115A1B80016BABC /* AppDelegate.h */,
 				CD5BC4E92115A1B80016BABC /* AppDelegate.m */,
+				608048DF213FB76100C0FCF3 /* RongCloudIMConfig.h */,
+				608048E0213FB76100C0FCF3 /* RongCloudIMConfig.m */,
 			);
 			path = Entry;
 			sourceTree = "<group>";
@@ -834,6 +839,7 @@
 				CDD8559921288BDB00B1AFDA /* NSBundle+ABA.m in Sources */,
 				CD2FF2EF2120648C0095B5A2 /* LoginTool.m in Sources */,
 				CD674B5E21174E33007920A2 /* AbaCommonBtn.m in Sources */,
+				608048E1213FB76100C0FCF3 /* RongCloudIMConfig.m in Sources */,
 				CDD855A92129754E00B1AFDA /* ABAScrollView.m in Sources */,
 				CDD8559621288ABA00B1AFDA /* ABAHTTPRequestConfig.m in Sources */,
 				CD674B052116E17E007920A2 /* BaseLoginViewController.m in Sources */,

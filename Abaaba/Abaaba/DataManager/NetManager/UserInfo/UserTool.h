@@ -13,4 +13,6 @@
 
 + (void)getUserInfo:(NSDictionary *)params finished:(void(^)(ABABaseResponse *result, NSError *error))finished;
 
++ (void)getToken:(NSDictionary *)params finished:(void(^)(ABABaseResponse *result, NSError *error))finished;
+
 @end
