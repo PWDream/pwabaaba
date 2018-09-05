@@ -1,0 +1,36 @@
+//
+//  Aba-Prefix.pch
+//  Abaaba
+//
+//  Created by PW on 2018/8/5.
+//  Copyright © 2018年 PW. All rights reserved.
+//
+
+
+#import <Availability.h>
+#ifdef __OBJC__
+
+#import "UIView+Aba.h"
+#import "Common.h"
+#import "UIImage+Aba.h"
+#import "UIButton+Aba.h"
+#import "NSObject+Aba.h"
+#import "AbaUrlDefine.h"
+#import "UIViewController+ABALoading.h"
+#import "AbaUser.h"
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MJExtension.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <TPKeyboardAvoidingScrollView.h>
+
+
+#define HEXCOLORA(c,a) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:a]
+#define HEXCOLOR(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
+#define RGBCOLORA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define RGBCOLOR(r,g,b) RGBCOLORA(r,g,b,(1.0))
+
+#endif

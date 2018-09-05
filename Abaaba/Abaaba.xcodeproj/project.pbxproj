@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912EDB52020BC0EB1CF7E647 /* libPods-Abaaba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC7618BE7050D9D3C08BF5E /* libPods-Abaaba.a */; };
+		CD2DB12D2115B9D200FECC6E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2DB1222115A82F00FECC6E /* Login.storyboard */; };
+		CD2FF2EF2120648C0095B5A2 /* LoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF2EE2120648C0095B5A2 /* LoginTool.m */; };
+		CD2FF2F3212064B50095B5A2 /* AbaLoginParam.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF2F2212064B50095B5A2 /* AbaLoginParam.m */; };
+		CD2FF2F6212064FF0095B5A2 /* AbaRegisterParam.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF2F5212064FF0095B5A2 /* AbaRegisterParam.m */; };
+		CD2FF3022121B5590095B5A2 /* AbaUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3012121B5590095B5A2 /* AbaUser.m */; };
+		CD2FF3052121B63C0095B5A2 /* NSObject+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3042121B63C0095B5A2 /* NSObject+Aba.m */; };
+		CD2FF30A2121B89E0095B5A2 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3092121B89E0095B5A2 /* UserModel.m */; };
+		CD2FF3112121BA300095B5A2 /* ABABaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3102121BA300095B5A2 /* ABABaseRequest.m */; };
+		CD2FF3142121BBC30095B5A2 /* ABaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3132121BBC30095B5A2 /* ABaseRequest.m */; };
+		CD2FF3172121BBE00095B5A2 /* ABABaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3162121BBE00095B5A2 /* ABABaseResponse.m */; };
+		CD2FF31A2121C52A0095B5A2 /* UIViewController+ABALoading.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3192121C52A0095B5A2 /* UIViewController+ABALoading.m */; };
+		CD2FF3242121C9FF0095B5A2 /* GlobalController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FF3232121C9FF0095B5A2 /* GlobalController.m */; };
+		CD5BC4EA2115A1B80016BABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BC4E92115A1B80016BABC /* AppDelegate.m */; };
+		CD5BC4F02115A1B80016BABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5BC4EE2115A1B80016BABC /* Main.storyboard */; };
+		CD5BC4F22115A1B80016BABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5BC4F12115A1B80016BABC /* Assets.xcassets */; };
+		CD5BC4F52115A1B80016BABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5BC4F32115A1B80016BABC /* LaunchScreen.storyboard */; };
+		CD5BC4F82115A1B80016BABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BC4F72115A1B80016BABC /* main.m */; };
+		CD674B052116E17E007920A2 /* BaseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B042116E17E007920A2 /* BaseLoginViewController.m */; };
+		CD674B082116E27D007920A2 /* AbaLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B072116E27D007920A2 /* AbaLoginViewController.m */; };
+		CD674B192116FB94007920A2 /* AbaRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B182116FB94007920A2 /* AbaRegisterViewController.m */; };
+		CD674B1C21170B19007920A2 /* AbaForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B1B21170B19007920A2 /* AbaForgetPwdViewController.m */; };
+		CD674B2021173ADC007920A2 /* AbaTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B1F21173ADC007920A2 /* AbaTimerButton.m */; };
+		CD674B232117456A007920A2 /* AbaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B222117456A007920A2 /* AbaTabBarController.m */; };
+		CD674B262117458B007920A2 /* AbaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B252117458B007920A2 /* AbaNavigationController.m */; };
+		CD674B29211745A2007920A2 /* AbaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B28211745A2007920A2 /* AbaViewController.m */; };
+		CD674B2C211745B4007920A2 /* AbaMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B2B211745B4007920A2 /* AbaMainViewController.m */; };
+		CD674B2F211745C9007920A2 /* AbaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B2E211745C9007920A2 /* AbaTableViewController.m */; };
+		CD674B3421174624007920A2 /* AbaCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B3321174624007920A2 /* AbaCustomTabBar.m */; };
+		CD674B372117468D007920A2 /* AbaBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B362117468D007920A2 /* AbaBarButton.m */; };
+		CD674B3A2117477B007920A2 /* AbaNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B392117477B007920A2 /* AbaNavigationBar.m */; };
+		CD674B3E211747BC007920A2 /* AbaCommonBtnObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B3D211747BC007920A2 /* AbaCommonBtnObject.m */; };
+		CD674B4221174894007920A2 /* UIImage+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B4121174894007920A2 /* UIImage+Aba.m */; };
+		CD674B4921174A0C007920A2 /* MessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B4821174A0C007920A2 /* MessageVC.m */; };
+		CD674B4C21174A1D007920A2 /* FriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B4B21174A1D007920A2 /* FriendVC.m */; };
+		CD674B4F21174A2A007920A2 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B4E21174A2A007920A2 /* DiscoverVC.m */; };
+		CD674B5221174A35007920A2 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B5121174A35007920A2 /* MyVC.m */; };
+		CD674B5821174C9E007920A2 /* UIBarButtonItem+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B5721174C9E007920A2 /* UIBarButtonItem+Aba.m */; };
+		CD674B5B21174CFA007920A2 /* UIButton+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B5A21174CFA007920A2 /* UIButton+Aba.m */; };
+		CD674B5E21174E33007920A2 /* AbaCommonBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CD674B5D21174E33007920A2 /* AbaCommonBtn.m */; };
+		CD94EF0C21201CF3000217FF /* MeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD94EF0B21201CF3000217FF /* MeHeaderView.m */; };
+		CD94EF0F21201E97000217FF /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD94EF0E21201E97000217FF /* UserInfoView.m */; };
+		CD94EF1221202227000217FF /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD94EF1121202227000217FF /* UserInfoModel.m */; };
+		CD94EF1421202703000217FF /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD94EF1321202703000217FF /* UserInfoView.xib */; };
+		CD94EF1721203994000217FF /* SettingItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD94EF1621203994000217FF /* SettingItemView.m */; };
+		CD94EF19212039A1000217FF /* SettingItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD94EF18212039A1000217FF /* SettingItemView.xib */; };
+		CD94EF1C21203EFA000217FF /* MySectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD94EF1B21203EFA000217FF /* MySectionView.m */; };
+		CD9EFA9B2115C38E006D476C /* AbaAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFA9A2115C38E006D476C /* AbaAnimatedImagesView.m */; };
+		CDAE87A82116041D007DEF79 /* UIColor+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAE87A72116041D007DEF79 /* UIColor+Aba.m */; };
+		CDAE87AB2116046F007DEF79 /* UIFont+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAE87AA2116046F007DEF79 /* UIFont+Aba.m */; };
+		CDAE87AF211604AC007DEF79 /* UIView+Aba.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAE87AE211604AC007DEF79 /* UIView+Aba.m */; };
+		CDAE87B2211605A4007DEF79 /* UIView+AbaXibLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAE87B1211605A4007DEF79 /* UIView+AbaXibLoad.m */; };
+		CDAE87BA21160C9A007DEF79 /* OMGToast.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDAE87B821160C9A007DEF79 /* OMGToast.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDAE87BD21160D7A007DEF79 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAE87BC21160D7A007DEF79 /* Common.m */; };
+		CDD855932128851A00B1AFDA /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855922128851A00B1AFDA /* LoginRequest.m */; };
+		CDD8559621288ABA00B1AFDA /* ABAHTTPRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8559521288ABA00B1AFDA /* ABAHTTPRequestConfig.m */; };
+		CDD8559921288BDB00B1AFDA /* NSBundle+ABA.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8559821288BDB00B1AFDA /* NSBundle+ABA.m */; };
+		CDD8559C21288C5800B1AFDA /* ABAErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8559B21288C5800B1AFDA /* ABAErrorHandler.m */; };
+		CDD855A22128F00500B1AFDA /* ABAErrorHandler+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855A12128F00500B1AFDA /* ABAErrorHandler+Config.m */; };
+		CDD855A92129754E00B1AFDA /* ABAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855A82129754E00B1AFDA /* ABAScrollView.m */; };
+		CDD855AD21297A4900B1AFDA /* DiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855AC21297A4900B1AFDA /* DiscoverModel.m */; };
+		CDD855B121297C6A00B1AFDA /* DiscoverTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855B021297C6A00B1AFDA /* DiscoverTool.m */; };
+		CDD855B42129852D00B1AFDA /* DiscoverDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855B32129852D00B1AFDA /* DiscoverDetailVC.m */; };
+		CDD855B72129888400B1AFDA /* ABAMainNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855B62129888400B1AFDA /* ABAMainNavigationBar.m */; };
+		CDD855BB212994B600B1AFDA /* DiscoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD855B9212994B600B1AFDA /* DiscoverTableViewCell.m */; };
+		CDD855BC212994B600B1AFDA /* DiscoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD855BA212994B600B1AFDA /* DiscoverTableViewCell.xib */; };
+		CDDAEAAB212857A1003A9372 /* UserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDAEAAA212857A1003A9372 /* UserTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15DEAC5FCE4852DAE3BF62E9 /* Pods-Abaaba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abaaba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abaaba/Pods-Abaaba.release.xcconfig"; sourceTree = "<group>"; };
+		8EC7618BE7050D9D3C08BF5E /* libPods-Abaaba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Abaaba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2DB1222115A82F00FECC6E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		CD2FF2ED2120648C0095B5A2 /* LoginTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTool.h; sourceTree = "<group>"; };
+		CD2FF2EE2120648C0095B5A2 /* LoginTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTool.m; sourceTree = "<group>"; };
+		CD2FF2F1212064B50095B5A2 /* AbaLoginParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaLoginParam.h; sourceTree = "<group>"; };
+		CD2FF2F2212064B50095B5A2 /* AbaLoginParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaLoginParam.m; sourceTree = "<group>"; };
+		CD2FF2F4212064FF0095B5A2 /* AbaRegisterParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaRegisterParam.h; sourceTree = "<group>"; };
+		CD2FF2F5212064FF0095B5A2 /* AbaRegisterParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaRegisterParam.m; sourceTree = "<group>"; };
+		CD2FF2FE2121B2500095B5A2 /* AbaUrlDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaUrlDefine.h; sourceTree = "<group>"; };
+		CD2FF3002121B5590095B5A2 /* AbaUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaUser.h; sourceTree = "<group>"; };
+		CD2FF3012121B5590095B5A2 /* AbaUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaUser.m; sourceTree = "<group>"; };
+		CD2FF3032121B63C0095B5A2 /* NSObject+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Aba.h"; sourceTree = "<group>"; };
+		CD2FF3042121B63C0095B5A2 /* NSObject+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Aba.m"; sourceTree = "<group>"; };
+		CD2FF3082121B89E0095B5A2 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		CD2FF3092121B89E0095B5A2 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		CD2FF30F2121BA300095B5A2 /* ABABaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABABaseRequest.h; sourceTree = "<group>"; };
+		CD2FF3102121BA300095B5A2 /* ABABaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABABaseRequest.m; sourceTree = "<group>"; };
+		CD2FF3122121BBC30095B5A2 /* ABaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABaseRequest.h; sourceTree = "<group>"; };
+		CD2FF3132121BBC30095B5A2 /* ABaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABaseRequest.m; sourceTree = "<group>"; };
+		CD2FF3152121BBE00095B5A2 /* ABABaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABABaseResponse.h; sourceTree = "<group>"; };
+		CD2FF3162121BBE00095B5A2 /* ABABaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABABaseResponse.m; sourceTree = "<group>"; };
+		CD2FF3182121C52A0095B5A2 /* UIViewController+ABALoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ABALoading.h"; sourceTree = "<group>"; };
+		CD2FF3192121C52A0095B5A2 /* UIViewController+ABALoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ABALoading.m"; sourceTree = "<group>"; };
+		CD2FF3222121C9FF0095B5A2 /* GlobalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalController.h; sourceTree = "<group>"; };
+		CD2FF3232121C9FF0095B5A2 /* GlobalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalController.m; sourceTree = "<group>"; };
+		CD5BC4E52115A1B80016BABC /* Abaaba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abaaba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5BC4E82115A1B80016BABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD5BC4E92115A1B80016BABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5BC4EF2115A1B80016BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5BC4F12115A1B80016BABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5BC4F42115A1B80016BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5BC4F62115A1B80016BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5BC4F72115A1B80016BABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD674B032116E17E007920A2 /* BaseLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLoginViewController.h; sourceTree = "<group>"; };
+		CD674B042116E17E007920A2 /* BaseLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLoginViewController.m; sourceTree = "<group>"; };
+		CD674B062116E27D007920A2 /* AbaLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaLoginViewController.h; sourceTree = "<group>"; };
+		CD674B072116E27D007920A2 /* AbaLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaLoginViewController.m; sourceTree = "<group>"; };
+		CD674B172116FB94007920A2 /* AbaRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaRegisterViewController.h; sourceTree = "<group>"; };
+		CD674B182116FB94007920A2 /* AbaRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaRegisterViewController.m; sourceTree = "<group>"; };
+		CD674B1A21170B18007920A2 /* AbaForgetPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaForgetPwdViewController.h; sourceTree = "<group>"; };
+		CD674B1B21170B19007920A2 /* AbaForgetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaForgetPwdViewController.m; sourceTree = "<group>"; };
+		CD674B1E21173ADC007920A2 /* AbaTimerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaTimerButton.h; sourceTree = "<group>"; };
+		CD674B1F21173ADC007920A2 /* AbaTimerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaTimerButton.m; sourceTree = "<group>"; };
+		CD674B212117456A007920A2 /* AbaTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaTabBarController.h; sourceTree = "<group>"; };
+		CD674B222117456A007920A2 /* AbaTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaTabBarController.m; sourceTree = "<group>"; };
+		CD674B242117458B007920A2 /* AbaNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaNavigationController.h; sourceTree = "<group>"; };
+		CD674B252117458B007920A2 /* AbaNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaNavigationController.m; sourceTree = "<group>"; };
+		CD674B27211745A2007920A2 /* AbaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaViewController.h; sourceTree = "<group>"; };
+		CD674B28211745A2007920A2 /* AbaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaViewController.m; sourceTree = "<group>"; };
+		CD674B2A211745B4007920A2 /* AbaMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaMainViewController.h; sourceTree = "<group>"; };
+		CD674B2B211745B4007920A2 /* AbaMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaMainViewController.m; sourceTree = "<group>"; };
+		CD674B2D211745C9007920A2 /* AbaTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaTableViewController.h; sourceTree = "<group>"; };
+		CD674B2E211745C9007920A2 /* AbaTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaTableViewController.m; sourceTree = "<group>"; };
+		CD674B3221174624007920A2 /* AbaCustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaCustomTabBar.h; sourceTree = "<group>"; };
+		CD674B3321174624007920A2 /* AbaCustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaCustomTabBar.m; sourceTree = "<group>"; };
+		CD674B352117468D007920A2 /* AbaBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaBarButton.h; sourceTree = "<group>"; };
+		CD674B362117468D007920A2 /* AbaBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaBarButton.m; sourceTree = "<group>"; };
+		CD674B382117477B007920A2 /* AbaNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaNavigationBar.h; sourceTree = "<group>"; };
+		CD674B392117477B007920A2 /* AbaNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaNavigationBar.m; sourceTree = "<group>"; };
+		CD674B3C211747BC007920A2 /* AbaCommonBtnObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaCommonBtnObject.h; sourceTree = "<group>"; };
+		CD674B3D211747BC007920A2 /* AbaCommonBtnObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaCommonBtnObject.m; sourceTree = "<group>"; };
+		CD674B4021174894007920A2 /* UIImage+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Aba.h"; sourceTree = "<group>"; };
+		CD674B4121174894007920A2 /* UIImage+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Aba.m"; sourceTree = "<group>"; };
+		CD674B4721174A0C007920A2 /* MessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageVC.h; sourceTree = "<group>"; };
+		CD674B4821174A0C007920A2 /* MessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageVC.m; sourceTree = "<group>"; };
+		CD674B4A21174A1D007920A2 /* FriendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendVC.h; sourceTree = "<group>"; };
+		CD674B4B21174A1D007920A2 /* FriendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendVC.m; sourceTree = "<group>"; };
+		CD674B4D21174A2A007920A2 /* DiscoverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		CD674B4E21174A2A007920A2 /* DiscoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		CD674B5021174A35007920A2 /* MyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		CD674B5121174A35007920A2 /* MyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
+		CD674B5621174C9E007920A2 /* UIBarButtonItem+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Aba.h"; sourceTree = "<group>"; };
+		CD674B5721174C9E007920A2 /* UIBarButtonItem+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Aba.m"; sourceTree = "<group>"; };
+		CD674B5921174CFA007920A2 /* UIButton+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Aba.h"; sourceTree = "<group>"; };
+		CD674B5A21174CFA007920A2 /* UIButton+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Aba.m"; sourceTree = "<group>"; };
+		CD674B5C21174E33007920A2 /* AbaCommonBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaCommonBtn.h; sourceTree = "<group>"; };
+		CD674B5D21174E33007920A2 /* AbaCommonBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaCommonBtn.m; sourceTree = "<group>"; };
+		CD94EF0A21201CF3000217FF /* MeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeHeaderView.h; sourceTree = "<group>"; };
+		CD94EF0B21201CF3000217FF /* MeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeHeaderView.m; sourceTree = "<group>"; };
+		CD94EF0D21201E97000217FF /* UserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
+		CD94EF0E21201E97000217FF /* UserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		CD94EF1021202227000217FF /* UserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		CD94EF1121202227000217FF /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		CD94EF1321202703000217FF /* UserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		CD94EF1521203994000217FF /* SettingItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingItemView.h; sourceTree = "<group>"; };
+		CD94EF1621203994000217FF /* SettingItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingItemView.m; sourceTree = "<group>"; };
+		CD94EF18212039A1000217FF /* SettingItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingItemView.xib; sourceTree = "<group>"; };
+		CD94EF1A21203EFA000217FF /* MySectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySectionView.h; sourceTree = "<group>"; };
+		CD94EF1B21203EFA000217FF /* MySectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySectionView.m; sourceTree = "<group>"; };
+		CD94EF1D2120584F000217FF /* MeEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeEnum.h; sourceTree = "<group>"; };
+		CD94EF1E21205AB3000217FF /* MyEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyEnum.h; sourceTree = "<group>"; };
+		CD9EFA992115C38E006D476C /* AbaAnimatedImagesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaAnimatedImagesView.h; sourceTree = "<group>"; };
+		CD9EFA9A2115C38E006D476C /* AbaAnimatedImagesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaAnimatedImagesView.m; sourceTree = "<group>"; };
+		CDAE87A62116041D007DEF79 /* UIColor+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Aba.h"; sourceTree = "<group>"; };
+		CDAE87A72116041D007DEF79 /* UIColor+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Aba.m"; sourceTree = "<group>"; };
+		CDAE87A92116046F007DEF79 /* UIFont+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Aba.h"; sourceTree = "<group>"; };
+		CDAE87AA2116046F007DEF79 /* UIFont+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Aba.m"; sourceTree = "<group>"; };
+		CDAE87AD211604AC007DEF79 /* UIView+Aba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Aba.h"; sourceTree = "<group>"; };
+		CDAE87AE211604AC007DEF79 /* UIView+Aba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Aba.m"; sourceTree = "<group>"; };
+		CDAE87B0211605A4007DEF79 /* UIView+AbaXibLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AbaXibLoad.h"; sourceTree = "<group>"; };
+		CDAE87B1211605A4007DEF79 /* UIView+AbaXibLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AbaXibLoad.m"; sourceTree = "<group>"; };
+		CDAE87B421160847007DEF79 /* Abaaba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Abaaba-Prefix.pch"; sourceTree = "<group>"; };
+		CDAE87B821160C9A007DEF79 /* OMGToast.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OMGToast.mm; sourceTree = "<group>"; };
+		CDAE87B921160C9A007DEF79 /* OMGToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGToast.h; sourceTree = "<group>"; };
+		CDAE87BB21160D7A007DEF79 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CDAE87BC21160D7A007DEF79 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		CDD855912128851A00B1AFDA /* LoginRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		CDD855922128851A00B1AFDA /* LoginRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		CDD8559421288ABA00B1AFDA /* ABAHTTPRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAHTTPRequestConfig.h; sourceTree = "<group>"; };
+		CDD8559521288ABA00B1AFDA /* ABAHTTPRequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAHTTPRequestConfig.m; sourceTree = "<group>"; };
+		CDD8559721288BDB00B1AFDA /* NSBundle+ABA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ABA.h"; sourceTree = "<group>"; };
+		CDD8559821288BDB00B1AFDA /* NSBundle+ABA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ABA.m"; sourceTree = "<group>"; };
+		CDD8559A21288C5800B1AFDA /* ABAErrorHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAErrorHandler.h; sourceTree = "<group>"; };
+		CDD8559B21288C5800B1AFDA /* ABAErrorHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAErrorHandler.m; sourceTree = "<group>"; };
+		CDD855A02128F00500B1AFDA /* ABAErrorHandler+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABAErrorHandler+Config.h"; sourceTree = "<group>"; };
+		CDD855A12128F00500B1AFDA /* ABAErrorHandler+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ABAErrorHandler+Config.m"; sourceTree = "<group>"; };
+		CDD855A72129754E00B1AFDA /* ABAScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAScrollView.h; sourceTree = "<group>"; };
+		CDD855A82129754E00B1AFDA /* ABAScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAScrollView.m; sourceTree = "<group>"; };
+		CDD855AB21297A4900B1AFDA /* DiscoverModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverModel.h; sourceTree = "<group>"; };
+		CDD855AC21297A4900B1AFDA /* DiscoverModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverModel.m; sourceTree = "<group>"; };
+		CDD855AF21297C6A00B1AFDA /* DiscoverTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverTool.h; sourceTree = "<group>"; };
+		CDD855B021297C6A00B1AFDA /* DiscoverTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverTool.m; sourceTree = "<group>"; };
+		CDD855B22129852D00B1AFDA /* DiscoverDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverDetailVC.h; sourceTree = "<group>"; };
+		CDD855B32129852D00B1AFDA /* DiscoverDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverDetailVC.m; sourceTree = "<group>"; };
+		CDD855B52129888400B1AFDA /* ABAMainNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAMainNavigationBar.h; sourceTree = "<group>"; };
+		CDD855B62129888400B1AFDA /* ABAMainNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAMainNavigationBar.m; sourceTree = "<group>"; };
+		CDD855B8212994B600B1AFDA /* DiscoverTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewCell.h; sourceTree = "<group>"; };
+		CDD855B9212994B600B1AFDA /* DiscoverTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewCell.m; sourceTree = "<group>"; };
+		CDD855BA212994B600B1AFDA /* DiscoverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverTableViewCell.xib; sourceTree = "<group>"; };
+		CDDAEAA9212857A1003A9372 /* UserTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTool.h; sourceTree = "<group>"; };
+		CDDAEAAA212857A1003A9372 /* UserTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTool.m; sourceTree = "<group>"; };
+		DB16891266ED40CE29511D11 /* Pods-Abaaba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abaaba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abaaba/Pods-Abaaba.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5BC4E22115A1B80016BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912EDB52020BC0EB1CF7E647 /* libPods-Abaaba.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FC546A968D4069D6DDED94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB16891266ED40CE29511D11 /* Pods-Abaaba.debug.xcconfig */,
+				15DEAC5FCE4852DAE3BF62E9 /* Pods-Abaaba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F01355C19435888A6E0F0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC7618BE7050D9D3C08BF5E /* libPods-Abaaba.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2DB1202115A7B200FECC6E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF2F02120649E0095B5A2 /* Modal */,
+				CD674B1D21173ABE007920A2 /* View */,
+				CD2DB1292115B3C200FECC6E /* ViewControler */,
+				CD2DB1222115A82F00FECC6E /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CD2DB1212115A7B300FECC6E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B3F2117487A007920A2 /* Category */,
+				CD674B3B211747A5007920A2 /* Modal */,
+				CD674B31211745F6007920A2 /* ViewController */,
+				CD674B30211745EE007920A2 /* View */,
+				CD5BC4EE2115A1B80016BABC /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CD2DB1242115ABD400FECC6E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFA992115C38E006D476C /* AbaAnimatedImagesView.h */,
+				CD9EFA9A2115C38E006D476C /* AbaAnimatedImagesView.m */,
+				CDAE87BB21160D7A007DEF79 /* Common.h */,
+				CDAE87BC21160D7A007DEF79 /* Common.m */,
+				CD2FF2FE2121B2500095B5A2 /* AbaUrlDefine.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CD2DB1252115AC0000FECC6E /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BC4F32115A1B80016BABC /* LaunchScreen.storyboard */,
+				CD5BC4F72115A1B80016BABC /* main.m */,
+				CD5BC4E82115A1B80016BABC /* AppDelegate.h */,
+				CD5BC4E92115A1B80016BABC /* AppDelegate.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		CD2DB1292115B3C200FECC6E /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B032116E17E007920A2 /* BaseLoginViewController.h */,
+				CD674B042116E17E007920A2 /* BaseLoginViewController.m */,
+				CD674B062116E27D007920A2 /* AbaLoginViewController.h */,
+				CD674B072116E27D007920A2 /* AbaLoginViewController.m */,
+				CD674B172116FB94007920A2 /* AbaRegisterViewController.h */,
+				CD674B182116FB94007920A2 /* AbaRegisterViewController.m */,
+				CD674B1A21170B18007920A2 /* AbaForgetPwdViewController.h */,
+				CD674B1B21170B19007920A2 /* AbaForgetPwdViewController.m */,
+			);
+			path = ViewControler;
+			sourceTree = "<group>";
+		};
+		CD2FF2EC212064790095B5A2 /* LoginTool */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF2ED2120648C0095B5A2 /* LoginTool.h */,
+				CD2FF2EE2120648C0095B5A2 /* LoginTool.m */,
+				CDD855912128851A00B1AFDA /* LoginRequest.h */,
+				CDD855922128851A00B1AFDA /* LoginRequest.m */,
+			);
+			path = LoginTool;
+			sourceTree = "<group>";
+		};
+		CD2FF2F02120649E0095B5A2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF2F1212064B50095B5A2 /* AbaLoginParam.h */,
+				CD2FF2F2212064B50095B5A2 /* AbaLoginParam.m */,
+				CD2FF2F4212064FF0095B5A2 /* AbaRegisterParam.h */,
+				CD2FF2F5212064FF0095B5A2 /* AbaRegisterParam.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CD2FF2FF2121B5430095B5A2 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF3002121B5590095B5A2 /* AbaUser.h */,
+				CD2FF3012121B5590095B5A2 /* AbaUser.m */,
+				CD94EF1021202227000217FF /* UserInfoModel.h */,
+				CD94EF1121202227000217FF /* UserInfoModel.m */,
+				CD2FF3222121C9FF0095B5A2 /* GlobalController.h */,
+				CD2FF3232121C9FF0095B5A2 /* GlobalController.m */,
+				CDD8559421288ABA00B1AFDA /* ABAHTTPRequestConfig.h */,
+				CDD8559521288ABA00B1AFDA /* ABAHTTPRequestConfig.m */,
+				CDD8559A21288C5800B1AFDA /* ABAErrorHandler.h */,
+				CDD8559B21288C5800B1AFDA /* ABAErrorHandler.m */,
+				CDD855A02128F00500B1AFDA /* ABAErrorHandler+Config.h */,
+				CDD855A12128F00500B1AFDA /* ABAErrorHandler+Config.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		CD2FF3062121B8110095B5A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF3072121B8810095B5A2 /* UserInfo */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD2FF3072121B8810095B5A2 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF3082121B89E0095B5A2 /* UserModel.h */,
+				CD2FF3092121B89E0095B5A2 /* UserModel.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		CD2FF30B2121B9C50095B5A2 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF30C2121B9E60095B5A2 /* NetManager */,
+				CD2FF30E2121BA000095B5A2 /* DBManager */,
+				CD2FF30D2121B9F50095B5A2 /* FileManager */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		CD2FF30C2121B9E60095B5A2 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				CDD855AE21297C5000B1AFDA /* DiscoverTool */,
+				CD2FF2EC212064790095B5A2 /* LoginTool */,
+				CDDAEAAC212857B6003A9372 /* UserInfo */,
+				CD2FF30F2121BA300095B5A2 /* ABABaseRequest.h */,
+				CD2FF3102121BA300095B5A2 /* ABABaseRequest.m */,
+				CD2FF3122121BBC30095B5A2 /* ABaseRequest.h */,
+				CD2FF3132121BBC30095B5A2 /* ABaseRequest.m */,
+				CD2FF3152121BBE00095B5A2 /* ABABaseResponse.h */,
+				CD2FF3162121BBE00095B5A2 /* ABABaseResponse.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		CD2FF30D2121B9F50095B5A2 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		CD2FF30E2121BA000095B5A2 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		CD5BC4DC2115A1B80016BABC = {
+			isa = PBXGroup;
+			children = (
+				CD5BC4E72115A1B80016BABC /* Abaaba */,
+				CD5BC4E62115A1B80016BABC /* Products */,
+				13FC546A968D4069D6DDED94 /* Pods */,
+				7F01355C19435888A6E0F0A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5BC4E62115A1B80016BABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BC4E52115A1B80016BABC /* Abaaba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5BC4E72115A1B80016BABC /* Abaaba */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FF30B2121B9C50095B5A2 /* DataManager */,
+				CD2FF3062121B8110095B5A2 /* Models */,
+				CD2FF2FF2121B5430095B5A2 /* Global */,
+				CD674B4321174987007920A2 /* Message */,
+				CD674B442117499E007920A2 /* Friend */,
+				CD674B45211749BE007920A2 /* Discover */,
+				CD674B46211749D6007920A2 /* My */,
+				CD2DB1252115AC0000FECC6E /* Entry */,
+				CD2DB1202115A7B200FECC6E /* Login */,
+				CD2DB1212115A7B300FECC6E /* Main */,
+				CDAE87B521160BE2007DEF79 /* ThirdLib */,
+				CDAE87A5211603CD007DEF79 /* AbaCategory */,
+				CD2DB1242115ABD400FECC6E /* Utilities */,
+				CDAE87B3211607F6007DEF79 /* Supporting Files */,
+				CD5BC4F12115A1B80016BABC /* Assets.xcassets */,
+				CD5BC4F62115A1B80016BABC /* Info.plist */,
+			);
+			path = Abaaba;
+			sourceTree = "<group>";
+		};
+		CD674B1D21173ABE007920A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B1E21173ADC007920A2 /* AbaTimerButton.h */,
+				CD674B1F21173ADC007920A2 /* AbaTimerButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD674B30211745EE007920A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B3221174624007920A2 /* AbaCustomTabBar.h */,
+				CD674B3321174624007920A2 /* AbaCustomTabBar.m */,
+				CD674B352117468D007920A2 /* AbaBarButton.h */,
+				CD674B362117468D007920A2 /* AbaBarButton.m */,
+				CD674B382117477B007920A2 /* AbaNavigationBar.h */,
+				CD674B392117477B007920A2 /* AbaNavigationBar.m */,
+				CD674B5C21174E33007920A2 /* AbaCommonBtn.h */,
+				CD674B5D21174E33007920A2 /* AbaCommonBtn.m */,
+				CDD855B52129888400B1AFDA /* ABAMainNavigationBar.h */,
+				CDD855B62129888400B1AFDA /* ABAMainNavigationBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD674B31211745F6007920A2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B212117456A007920A2 /* AbaTabBarController.h */,
+				CD674B222117456A007920A2 /* AbaTabBarController.m */,
+				CD674B242117458B007920A2 /* AbaNavigationController.h */,
+				CD674B252117458B007920A2 /* AbaNavigationController.m */,
+				CD674B27211745A2007920A2 /* AbaViewController.h */,
+				CD674B28211745A2007920A2 /* AbaViewController.m */,
+				CD674B2A211745B4007920A2 /* AbaMainViewController.h */,
+				CD674B2B211745B4007920A2 /* AbaMainViewController.m */,
+				CD674B2D211745C9007920A2 /* AbaTableViewController.h */,
+				CD674B2E211745C9007920A2 /* AbaTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CD674B3B211747A5007920A2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B3C211747BC007920A2 /* AbaCommonBtnObject.h */,
+				CD674B3D211747BC007920A2 /* AbaCommonBtnObject.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CD674B3F2117487A007920A2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B4021174894007920A2 /* UIImage+Aba.h */,
+				CD674B4121174894007920A2 /* UIImage+Aba.m */,
+				CD674B5621174C9E007920A2 /* UIBarButtonItem+Aba.h */,
+				CD674B5721174C9E007920A2 /* UIBarButtonItem+Aba.m */,
+				CD674B5921174CFA007920A2 /* UIButton+Aba.h */,
+				CD674B5A21174CFA007920A2 /* UIButton+Aba.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CD674B4321174987007920A2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B4721174A0C007920A2 /* MessageVC.h */,
+				CD674B4821174A0C007920A2 /* MessageVC.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CD674B442117499E007920A2 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				CD674B4A21174A1D007920A2 /* FriendVC.h */,
+				CD674B4B21174A1D007920A2 /* FriendVC.m */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		CD674B45211749BE007920A2 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				CDD855AA21297A0E00B1AFDA /* Model */,
+				CDD855A62129738400B1AFDA /* View */,
+				CD674B4D21174A2A007920A2 /* DiscoverVC.h */,
+				CD674B4E21174A2A007920A2 /* DiscoverVC.m */,
+				CDD855B22129852D00B1AFDA /* DiscoverDetailVC.h */,
+				CDD855B32129852D00B1AFDA /* DiscoverDetailVC.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		CD674B46211749D6007920A2 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CD94EF0921201C22000217FF /* View */,
+				CD94EF0821201C19000217FF /* Modal */,
+				CD674B5021174A35007920A2 /* MyVC.h */,
+				CD674B5121174A35007920A2 /* MyVC.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CD94EF0821201C19000217FF /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CD94EF1D2120584F000217FF /* MeEnum.h */,
+				CD94EF1E21205AB3000217FF /* MyEnum.h */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CD94EF0921201C22000217FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD94EF0A21201CF3000217FF /* MeHeaderView.h */,
+				CD94EF0B21201CF3000217FF /* MeHeaderView.m */,
+				CD94EF0D21201E97000217FF /* UserInfoView.h */,
+				CD94EF0E21201E97000217FF /* UserInfoView.m */,
+				CD94EF1321202703000217FF /* UserInfoView.xib */,
+				CD94EF1521203994000217FF /* SettingItemView.h */,
+				CD94EF1621203994000217FF /* SettingItemView.m */,
+				CD94EF18212039A1000217FF /* SettingItemView.xib */,
+				CD94EF1A21203EFA000217FF /* MySectionView.h */,
+				CD94EF1B21203EFA000217FF /* MySectionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDAE87A5211603CD007DEF79 /* AbaCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE87AC2116049A007DEF79 /* UIView */,
+				CDAE87A62116041D007DEF79 /* UIColor+Aba.h */,
+				CDAE87A72116041D007DEF79 /* UIColor+Aba.m */,
+				CDAE87A92116046F007DEF79 /* UIFont+Aba.h */,
+				CDAE87AA2116046F007DEF79 /* UIFont+Aba.m */,
+				CD2FF3032121B63C0095B5A2 /* NSObject+Aba.h */,
+				CD2FF3042121B63C0095B5A2 /* NSObject+Aba.m */,
+				CD2FF3182121C52A0095B5A2 /* UIViewController+ABALoading.h */,
+				CD2FF3192121C52A0095B5A2 /* UIViewController+ABALoading.m */,
+				CDD8559721288BDB00B1AFDA /* NSBundle+ABA.h */,
+				CDD8559821288BDB00B1AFDA /* NSBundle+ABA.m */,
+			);
+			path = AbaCategory;
+			sourceTree = "<group>";
+		};
+		CDAE87AC2116049A007DEF79 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE87AD211604AC007DEF79 /* UIView+Aba.h */,
+				CDAE87AE211604AC007DEF79 /* UIView+Aba.m */,
+				CDAE87B0211605A4007DEF79 /* UIView+AbaXibLoad.h */,
+				CDAE87B1211605A4007DEF79 /* UIView+AbaXibLoad.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CDAE87B3211607F6007DEF79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE87B421160847007DEF79 /* Abaaba-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDAE87B521160BE2007DEF79 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE87B621160BEE007DEF79 /* ThirdViews */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		CDAE87B621160BEE007DEF79 /* ThirdViews */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE87B721160C6A007DEF79 /* OMGToast */,
+			);
+			path = ThirdViews;
+			sourceTree = "<group>";
+		};
+		CDAE87B721160C6A007DEF79 /* OMGToast */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE87B921160C9A007DEF79 /* OMGToast.h */,
+				CDAE87B821160C9A007DEF79 /* OMGToast.mm */,
+			);
+			path = OMGToast;
+			sourceTree = "<group>";
+		};
+		CDD855A62129738400B1AFDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDD855A72129754E00B1AFDA /* ABAScrollView.h */,
+				CDD855A82129754E00B1AFDA /* ABAScrollView.m */,
+				CDD855B8212994B600B1AFDA /* DiscoverTableViewCell.h */,
+				CDD855B9212994B600B1AFDA /* DiscoverTableViewCell.m */,
+				CDD855BA212994B600B1AFDA /* DiscoverTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDD855AA21297A0E00B1AFDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDD855AB21297A4900B1AFDA /* DiscoverModel.h */,
+				CDD855AC21297A4900B1AFDA /* DiscoverModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDD855AE21297C5000B1AFDA /* DiscoverTool */ = {
+			isa = PBXGroup;
+			children = (
+				CDD855AF21297C6A00B1AFDA /* DiscoverTool.h */,
+				CDD855B021297C6A00B1AFDA /* DiscoverTool.m */,
+			);
+			path = DiscoverTool;
+			sourceTree = "<group>";
+		};
+		CDDAEAAC212857B6003A9372 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CDDAEAA9212857A1003A9372 /* UserTool.h */,
+				CDDAEAAA212857A1003A9372 /* UserTool.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5BC4E42115A1B80016BABC /* Abaaba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5BC4FB2115A1B80016BABC /* Build configuration list for PBXNativeTarget "Abaaba" */;
+			buildPhases = (
+				D621E86D1C005179E56F3B06 /* [CP] Check Pods Manifest.lock */,
+				CD5BC4E12115A1B80016BABC /* Sources */,
+				CD5BC4E22115A1B80016BABC /* Frameworks */,
+				CD5BC4E32115A1B80016BABC /* Resources */,
+				0AA645745AA3E070793A62C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abaaba;
+			productName = Abaaba;
+			productReference = CD5BC4E52115A1B80016BABC /* Abaaba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5BC4DD2115A1B80016BABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = PW;
+				TargetAttributes = {
+					CD5BC4E42115A1B80016BABC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD5BC4E02115A1B80016BABC /* Build configuration list for PBXProject "Abaaba" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5BC4DC2115A1B80016BABC;
+			productRefGroup = CD5BC4E62115A1B80016BABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5BC4E42115A1B80016BABC /* Abaaba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5BC4E32115A1B80016BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2DB12D2115B9D200FECC6E /* Login.storyboard in Resources */,
+				CD94EF1421202703000217FF /* UserInfoView.xib in Resources */,
+				CDD855BC212994B600B1AFDA /* DiscoverTableViewCell.xib in Resources */,
+				CD94EF19212039A1000217FF /* SettingItemView.xib in Resources */,
+				CD5BC4F52115A1B80016BABC /* LaunchScreen.storyboard in Resources */,
+				CD5BC4F22115A1B80016BABC /* Assets.xcassets in Resources */,
+				CD5BC4F02115A1B80016BABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA645745AA3E070793A62C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abaaba/Pods-Abaaba-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DeviceUtil/DeviceUtil.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DeviceUtil.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abaaba/Pods-Abaaba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D621E86D1C005179E56F3B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abaaba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5BC4E12115A1B80016BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD674B4221174894007920A2 /* UIImage+Aba.m in Sources */,
+				CD674B29211745A2007920A2 /* AbaViewController.m in Sources */,
+				CDDAEAAB212857A1003A9372 /* UserTool.m in Sources */,
+				CD674B4F21174A2A007920A2 /* DiscoverVC.m in Sources */,
+				CD2FF3242121C9FF0095B5A2 /* GlobalController.m in Sources */,
+				CD2FF3112121BA300095B5A2 /* ABABaseRequest.m in Sources */,
+				CDD855B121297C6A00B1AFDA /* DiscoverTool.m in Sources */,
+				CD674B4921174A0C007920A2 /* MessageVC.m in Sources */,
+				CD674B232117456A007920A2 /* AbaTabBarController.m in Sources */,
+				CDD8559C21288C5800B1AFDA /* ABAErrorHandler.m in Sources */,
+				CD674B5821174C9E007920A2 /* UIBarButtonItem+Aba.m in Sources */,
+				CDD855AD21297A4900B1AFDA /* DiscoverModel.m in Sources */,
+				CDAE87B2211605A4007DEF79 /* UIView+AbaXibLoad.m in Sources */,
+				CDD855B42129852D00B1AFDA /* DiscoverDetailVC.m in Sources */,
+				CDAE87BD21160D7A007DEF79 /* Common.m in Sources */,
+				CD2FF30A2121B89E0095B5A2 /* UserModel.m in Sources */,
+				CD2FF3022121B5590095B5A2 /* AbaUser.m in Sources */,
+				CD674B2C211745B4007920A2 /* AbaMainViewController.m in Sources */,
+				CDD855932128851A00B1AFDA /* LoginRequest.m in Sources */,
+				CD5BC4F82115A1B80016BABC /* main.m in Sources */,
+				CDAE87A82116041D007DEF79 /* UIColor+Aba.m in Sources */,
+				CD2FF3052121B63C0095B5A2 /* NSObject+Aba.m in Sources */,
+				CD674B1C21170B19007920A2 /* AbaForgetPwdViewController.m in Sources */,
+				CD94EF0F21201E97000217FF /* UserInfoView.m in Sources */,
+				CD674B192116FB94007920A2 /* AbaRegisterViewController.m in Sources */,
+				CDAE87AF211604AC007DEF79 /* UIView+Aba.m in Sources */,
+				CD2FF3142121BBC30095B5A2 /* ABaseRequest.m in Sources */,
+				CD2FF31A2121C52A0095B5A2 /* UIViewController+ABALoading.m in Sources */,
+				CDD8559921288BDB00B1AFDA /* NSBundle+ABA.m in Sources */,
+				CD2FF2EF2120648C0095B5A2 /* LoginTool.m in Sources */,
+				CD674B5E21174E33007920A2 /* AbaCommonBtn.m in Sources */,
+				CDD855A92129754E00B1AFDA /* ABAScrollView.m in Sources */,
+				CDD8559621288ABA00B1AFDA /* ABAHTTPRequestConfig.m in Sources */,
+				CD674B052116E17E007920A2 /* BaseLoginViewController.m in Sources */,
+				CD674B3E211747BC007920A2 /* AbaCommonBtnObject.m in Sources */,
+				CDD855A22128F00500B1AFDA /* ABAErrorHandler+Config.m in Sources */,
+				CDAE87AB2116046F007DEF79 /* UIFont+Aba.m in Sources */,
+				CDD855B72129888400B1AFDA /* ABAMainNavigationBar.m in Sources */,
+				CD674B5221174A35007920A2 /* MyVC.m in Sources */,
+				CD2FF3172121BBE00095B5A2 /* ABABaseResponse.m in Sources */,
+				CD94EF1C21203EFA000217FF /* MySectionView.m in Sources */,
+				CDD855BB212994B600B1AFDA /* DiscoverTableViewCell.m in Sources */,
+				CD9EFA9B2115C38E006D476C /* AbaAnimatedImagesView.m in Sources */,
+				CD2FF2F6212064FF0095B5A2 /* AbaRegisterParam.m in Sources */,
+				CD674B372117468D007920A2 /* AbaBarButton.m in Sources */,
+				CD2FF2F3212064B50095B5A2 /* AbaLoginParam.m in Sources */,
+				CD674B5B21174CFA007920A2 /* UIButton+Aba.m in Sources */,
+				CD674B2F211745C9007920A2 /* AbaTableViewController.m in Sources */,
+				CD674B2021173ADC007920A2 /* AbaTimerButton.m in Sources */,
+				CD674B262117458B007920A2 /* AbaNavigationController.m in Sources */,
+				CDAE87BA21160C9A007DEF79 /* OMGToast.mm in Sources */,
+				CD94EF1721203994000217FF /* SettingItemView.m in Sources */,
+				CD674B3A2117477B007920A2 /* AbaNavigationBar.m in Sources */,
+				CD674B082116E27D007920A2 /* AbaLoginViewController.m in Sources */,
+				CD5BC4EA2115A1B80016BABC /* AppDelegate.m in Sources */,
+				CD94EF1221202227000217FF /* UserInfoModel.m in Sources */,
+				CD674B4C21174A1D007920A2 /* FriendVC.m in Sources */,
+				CD674B3421174624007920A2 /* AbaCustomTabBar.m in Sources */,
+				CD94EF0C21201CF3000217FF /* MeHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD5BC4EE2115A1B80016BABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5BC4EF2115A1B80016BABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5BC4F32115A1B80016BABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5BC4F42115A1B80016BABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5BC4F92115A1B80016BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD5BC4FA2115A1B80016BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5BC4FC2115A1B80016BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB16891266ED40CE29511D11 /* Pods-Abaaba.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(Abaaba)/Abaaba/Supporting Files/Abaaba-Prefix.pch";
+				INFOPLIST_FILE = Abaaba/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pw.abaaba.abaaba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD5BC4FD2115A1B80016BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DEAC5FCE4852DAE3BF62E9 /* Pods-Abaaba.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(Abaaba)/Abaaba/Supporting Files/Abaaba-Prefix.pch";
+				INFOPLIST_FILE = Abaaba/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pw.abaaba.abaaba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5BC4E02115A1B80016BABC /* Build configuration list for PBXProject "Abaaba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5BC4F92115A1B80016BABC /* Debug */,
+				CD5BC4FA2115A1B80016BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5BC4FB2115A1B80016BABC /* Build configuration list for PBXNativeTarget "Abaaba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5BC4FC2115A1B80016BABC /* Debug */,
+				CD5BC4FD2115A1B80016BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5BC4DD2115A1B80016BABC /* Project object */;
+}
